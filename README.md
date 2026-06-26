@@ -1,12 +1,12 @@
-# 💳 Credit Card Fraud Detection System using Machine Learning and Flask
+# Credit Card Fraud Detection System using Machine Learning and Flask
 
-## 📌 Project Overview
+## Project Overview
 
 The Credit Card Fraud Detection System is a Machine Learning-based web application designed to identify fraudulent credit card transactions in real time. The system uses a trained ML model to analyze transaction details and classify them as either **Fraudulent** or **Legitimate**. A Flask web application provides a simple and interactive interface for users to test transactions.
 
 ---
 
-## 🎯 Objectives
+## Objectives
 
 - Detect fraudulent credit card transactions accurately.
 - Minimize financial losses caused by fraud.
@@ -15,7 +15,7 @@ The Credit Card Fraud Detection System is a Machine Learning-based web applicati
 
 ---
 
-## ✨ Features
+## Features
 
 - Machine Learning-based fraud detection.
 - Real-time transaction prediction.
@@ -26,7 +26,7 @@ The Credit Card Fraud Detection System is a Machine Learning-based web applicati
 
 ---
 
-## 🛠️ Technologies Used
+# Technologies Used
 
 ### Programming Language
 - Python
@@ -51,7 +51,7 @@ The Credit Card Fraud Detection System is a Machine Learning-based web applicati
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 Credit-Card-Fraud-Detection/
@@ -75,19 +75,19 @@ Credit-Card-Fraud-Detection/
 
 ---
 
-## ⚙️ How It Works
+##  How It Works
 
 1. The user enters transaction details through the web interface.
 2. Flask receives the input data.
 3. The trained Machine Learning model processes the data.
 4. The model predicts whether the transaction is:
-   - ✅ Legitimate Transaction
-   - ❌ Fraudulent Transaction
+   -  Legitimate Transaction
+   -  Fraudulent Transaction
 5. The prediction is displayed instantly on the webpage.
 
 ---
 
-## 🧠 Machine Learning Workflow
+##  Machine Learning Workflow
 
 - Data Collection
 - Data Preprocessing
@@ -100,7 +100,7 @@ Credit-Card-Fraud-Detection/
 
 ---
 
-## 🚀 Installation
+## Installation
 
 ### Clone the repository
 
@@ -146,26 +146,13 @@ Example:
 
 ---
 
-## 📈 Output
+##  Output
 
 The system predicts one of the following:
 
-- ✅ Legitimate Transaction
-- ❌ Fraudulent Transaction
+-  Legitimate Transaction
+-  Fraudulent Transaction
 
----
-
-## 📷 Screenshots
-
-You can add screenshots here after uploading them.
-
-Example:
-
-- Home Page
-- Prediction Page
-- Result Page
-
----
 
 ## 🔮 Future Enhancements
 
@@ -205,7 +192,3 @@ B.Tech Artificial Intelligence and Data Science
 Machine Learning | Data Science | Python Developer
 
 ---
-
-## 📄 License
-
-This project is developed for educational and learning purposes.
