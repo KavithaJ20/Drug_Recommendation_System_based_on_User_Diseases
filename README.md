@@ -186,8 +186,6 @@ pip install -r requirements.txt
 
 **Kavitha J**
 
-B.Tech Artificial Intelligence and Data Science
 
-Machine Learning | Data Science | Python Developer
 
----
+
