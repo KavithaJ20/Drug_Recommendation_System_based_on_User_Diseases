@@ -134,7 +134,7 @@ http://127.0.0.1:5000
 
 ---
 
-## 📊 Input
+## Input
 
 The system accepts transaction-related details required by the trained model.
 
@@ -154,7 +154,7 @@ The system predicts one of the following:
 -  Fraudulent Transaction
 
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - Deep Learning-based fraud detection.
 - Live transaction monitoring.
@@ -166,7 +166,7 @@ The system predicts one of the following:
 
 ---
 
-## 📋 Requirements
+## Requirements
 
 - Python 3.10+
 - Flask
@@ -183,9 +183,9 @@ pip install -r requirements.txt
 
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Kavitha Jeeva**
+**Kavitha J**
 
 B.Tech Artificial Intelligence and Data Science
 
