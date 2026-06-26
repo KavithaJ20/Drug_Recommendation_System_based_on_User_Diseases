@@ -214,8 +214,3 @@ These modules correspond to the project's user workflow. :contentReference[oaici
 
 This project demonstrates how Machine Learning and Natural Language Processing techniques can be applied to recommend appropriate drugs based on user diseases. The system improves recommendation accuracy, reduces manual effort, and provides a reliable decision-support tool for healthcare applications.
 
----
-
-## License
-
-This project is developed for educational and research purposes.
