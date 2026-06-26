@@ -4,7 +4,6 @@
 
 The Credit Card Fraud Detection System is a Machine Learning-based web application designed to identify fraudulent credit card transactions in real time. The system uses a trained ML model to analyze transaction details and classify them as either **Fraudulent** or **Legitimate**. A Flask web application provides a simple and interactive interface for users to test transactions.
 
----
 
 ## Objectives
 
