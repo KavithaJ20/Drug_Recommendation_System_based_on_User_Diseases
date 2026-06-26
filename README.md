@@ -1,31 +1,34 @@
-# Credit Card Fraud Detection System using Machine Learning and Flask
+# Drugs Recommendation Based on User Diseases
 
 ## Project Overview
 
-The Credit Card Fraud Detection System is a Machine Learning-based web application designed to identify fraudulent credit card transactions in real time. The system uses a trained ML model to analyze transaction details and classify them as either **Fraudulent** or **Legitimate**. A Flask web application provides a simple and interactive interface for users to test transactions.
+The Drugs Recommendation Based on User Diseases project is a Machine Learning-based application designed to recommend suitable medications based on a user's disease. The system analyzes patient reviews and medical data using various text processing and classification techniques to identify the most appropriate drug recommendation. The objective is to assist users and healthcare professionals in making informed decisions while reducing the burden on medical specialists.
 
+---
 
 ## Objectives
 
-- Detect fraudulent credit card transactions accurately.
-- Minimize financial losses caused by fraud.
-- Provide real-time prediction using Machine Learning.
-- Build a user-friendly web interface using Flask.
+- Recommend appropriate drugs based on user diseases.
+- Improve the accuracy of medicine recommendations using Machine Learning.
+- Reduce manual effort in identifying suitable medications.
+- Assist healthcare professionals with data-driven recommendations.
+- Enhance the efficiency of the drug recommendation process.
 
 ---
 
 ## Features
 
-- Machine Learning-based fraud detection.
-- Real-time transaction prediction.
-- User-friendly Flask web interface.
-- Fast and accurate classification.
-- Easy deployment on a local server.
-- Scalable for future improvements.
+- User Registration and Login
+- User Profile Management
+- Dataset Upload
+- Disease-Based Drug Recommendation
+- Machine Learning-Based Prediction
+- Secure User Authentication
+- Simple and User-Friendly Interface
 
 ---
 
-# Technologies Used
+## Technologies Used
 
 ### Programming Language
 - Python
@@ -35,25 +38,30 @@ The Credit Card Fraud Detection System is a Machine Learning-based web applicati
 - Pandas
 - NumPy
 
-### Web Framework
-- Flask
+### Natural Language Processing
+- TF-IDF
+- Bag of Words (BoW)
+- Word2Vec
 
-### Frontend
+### Web Technologies
 - HTML
 - CSS
-- Bootstrap
+- Flask
+
+### Database
+- MySQL
 
 ### Development Tools
-- Jupyter Notebook
 - Visual Studio Code
+- Jupyter Notebook
 - Anaconda
 
 ---
 
-##  Project Structure
+## Project Structure
 
 ```
-Credit-Card-Fraud-Detection/
+Drugs-Recommendation-System/
 │
 ├── static/
 │   ├── css/
@@ -61,65 +69,72 @@ Credit-Card-Fraud-Detection/
 │
 ├── templates/
 │   ├── index.html
+│   ├── login.html
+│   ├── register.html
+│   ├── recommendation.html
+│
+├── dataset/
+│   ├── drugs_dataset.csv
 │
 ├── model/
-│   ├── fraud_model.pkl
+│   ├── recommendation_model.pkl
 │
 ├── app.py
 ├── train_model.py
 ├── requirements.txt
 ├── README.md
-└── dataset.csv
+└── database.sql
 ```
 
 ---
 
-##  How It Works
+## System Workflow
 
-1. The user enters transaction details through the web interface.
-2. Flask receives the input data.
-3. The trained Machine Learning model processes the data.
-4. The model predicts whether the transaction is:
-   -  Legitimate Transaction
-   -  Fraudulent Transaction
-5. The prediction is displayed instantly on the webpage.
+1. User registers and logs into the system.
+2. The dataset is uploaded and processed.
+3. The user enters the disease name.
+4. The Machine Learning model analyzes the input.
+5. The system recommends the most suitable drug.
+6. The recommendation is displayed to the user.
 
 ---
 
-##  Machine Learning Workflow
+## Machine Learning Workflow
 
 - Data Collection
 - Data Preprocessing
-- Feature Selection
+- Text Vectorization
+- Feature Extraction
 - Model Training
 - Model Evaluation
-- Model Saving
-- Flask Integration
-- Real-Time Prediction
+- Drug Recommendation
+- Web Application Integration
+
+---
+
+## Algorithm Used
+
+- Support Vector Machine (SVM)
+
+The Support Vector Machine (SVM) algorithm is used as the primary classification technique for predicting the most suitable drug recommendations based on disease-related information. :contentReference[oaicite:1]{index=1}
 
 ---
 
 ## Installation
 
-### Clone the repository
+### Navigate to the Project
 
 ```bash
-git clone https://github.com/yourusername/Credit-Card-Fraud-Detection.git
+cd Drugs-Recommendation-System
 ```
 
-### Navigate to the project
-
-```bash
-cd Credit-Card-Fraud-Detection
-```
-
-### Install dependencies
+### Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### Run the application
+### Run the Application
 
 ```bash
 python app.py
@@ -135,57 +150,72 @@ http://127.0.0.1:5000
 
 ## Input
 
-The system accepts transaction-related details required by the trained model.
-
-Example:
-
-- Transaction Amount
-- Transaction Features
-- Other encoded attributes from the dataset
+- User Disease
+- Medical Dataset
+- Patient Review Data (if applicable)
 
 ---
 
-##  Output
+## Output
 
-The system predicts one of the following:
-
--  Legitimate Transaction
--  Fraudulent Transaction
-
-
-##  Future Enhancements
-
-- Deep Learning-based fraud detection.
-- Live transaction monitoring.
-- Database integration.
-- User authentication.
-- Cloud deployment.
-- REST API support.
-- Model retraining with new data.
+The system predicts and recommends the most suitable drug for the entered disease based on the trained Machine Learning model.
 
 ---
 
-## Requirements
+## Modules
 
-- Python 3.10+
+- User Registration
+- User Login
+- Profile Management
+- Dataset Upload
+- Disease Input
+- Drug Recommendation
+- Logout
+
+These modules correspond to the project's user workflow. :contentReference[oaicite:2]{index=2}
+
+---
+
+## Future Enhancements
+
+- Deep Learning-based recommendation models
+- Real-time medical database integration
+- Personalized medicine recommendations
+- API integration with healthcare platforms
+- Mobile application support
+- Cloud deployment
+- Multi-language support
+
+---
+
+## Hardware Requirements
+
+- Intel Core i3 Processor or above
+- Minimum 4 GB RAM
+- 40 GB Hard Disk
+- 64-bit Operating System
+
+---
+
+## Software Requirements
+
+- Windows 10 or Windows 11
+- Python 3.x
 - Flask
-- Scikit-learn
-- Pandas
-- NumPy
-- Joblib
-
-Install all dependencies using:
-
-```bash
-pip install -r requirements.txt
-```
+- MySQL
+- HTML
+- CSS
+- Visual Studio Code
+- Jupyter Notebook
 
 ---
 
-## Author
+## Conclusion
 
-**Kavitha J**
+This project demonstrates how Machine Learning and Natural Language Processing techniques can be applied to recommend appropriate drugs based on user diseases. The system improves recommendation accuracy, reduces manual effort, and provides a reliable decision-support tool for healthcare applications.
 
+---
 
+## License
 
-
+This project is developed for educational and research purposes.
