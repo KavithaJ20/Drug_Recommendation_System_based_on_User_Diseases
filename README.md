@@ -79,8 +79,8 @@ Drugs-Recommendation-System/
 ├── model/
 │   ├── recommendation_model.pkl
 │
-├── app.py
-├── train_model.py
+├── app.java
+├── train_model.java
 ├── requirements.txt
 ├── README.md
 └── database.sql
@@ -132,12 +132,6 @@ cd Drugs-Recommendation-System
 
 ```bash
 pip install -r requirements.txt
-```
-
-### Run the Application
-
-```bash
-python app.py
 ```
 
 Open your browser and visit:
