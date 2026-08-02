@@ -33,16 +33,6 @@ The Drugs Recommendation Based on User Diseases project is a Machine Learning-ba
 ### Programming Language
 - Java
 
-### Machine Learning
-- Scikit-learn
-- Pandas
-- NumPy
-
-### Natural Language Processing
-- TF-IDF
-- Bag of Words (BoW)
-- Word2Vec
-
 ### Web Technologies
 - HTML
 - CSS
@@ -166,7 +156,7 @@ The system predicts and recommends the most suitable drug for the entered diseas
 - Drug Recommendation
 - Logout
 
-These modules correspond to the project's user workflow. :contentReference[oaicite:2]{index=2}
+These modules correspond to the project's user workflow.
 
 ---
 
@@ -205,5 +195,5 @@ These modules correspond to the project's user workflow. :contentReference[oaici
 
 ## Conclusion
 
-This project demonstrates how Machine Learning and Natural Language Processing techniques can be applied to recommend appropriate drugs based on user diseases. The system improves recommendation accuracy, reduces manual effort, and provides a reliable decision-support tool for healthcare applications.
+This project demonstrates how Machine Learning techniques can be applied to recommend appropriate drugs based on user diseases. The system improves recommendation accuracy, reduces manual effort, and provides a reliable decision-support tool for healthcare applications.
 
