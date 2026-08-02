@@ -31,7 +31,7 @@ The Drugs Recommendation Based on User Diseases project is a Machine Learning-ba
 ## Technologies Used
 
 ### Programming Language
-- Python
+- Java
 
 ### Machine Learning
 - Scikit-learn
@@ -116,7 +116,7 @@ Drugs-Recommendation-System/
 
 - Support Vector Machine (SVM)
 
-The Support Vector Machine (SVM) algorithm is used as the primary classification technique for predicting the most suitable drug recommendations based on disease-related information. :contentReference[oaicite:1]{index=1}
+The Support Vector Machine (SVM) algorithm is used as the primary classification technique for predicting the most suitable drug recommendations based on disease-related information. 
 
 ---
 
@@ -200,7 +200,6 @@ These modules correspond to the project's user workflow. :contentReference[oaici
 ## Software Requirements
 
 - Windows 10 or Windows 11
-- Python 3.x
 - Flask
 - MySQL
 - HTML
